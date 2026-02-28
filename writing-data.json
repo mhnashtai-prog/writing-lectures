@@ -59,13 +59,13 @@
     "sc1QuestionN": 3,
     "pairs": [
       {
-        "s": "Should phones",
-        "r": "be limited for young people?",
-        "linkHtml": "→ You need to pick a side and stick to it.",
-        "t": "In my opinion, <strong>limiting phone use</strong> for young people would have clear benefits for health, sleep and education.",
-        "f": "Should phones be limited for young people?",
-        "link": "You need to pick a side and stick to it.",
-        "tf": "In my opinion, limiting phone use for young people would have clear benefits.",
+        "s": "Nowadays,",
+        "r": "smartphones are used by millions of young people around the world every single day.",
+        "f": "Nowadays, smartphones are used by millions of young people around the world every single day.",
+        "linkHtml": "<span style=\"color:var(--red);font-weight:700\">Although</span> this technology brings many benefits, there is growing concern about its effect on young people.",
+        "link": "Although this technology brings many benefits, there is growing concern about its effect on young people.",
+        "t": "This essay will discuss whether it is a good idea to <strong>limit how much young people use their phones.</strong>",
+        "tf": "This essay will discuss whether it is a good idea to limit how much young people use their phones.",
         "audioNums": [
           4,
           5,
