@@ -4,13 +4,42 @@
     "accentColor": "#c9140f",
     "sc0FlagLabel": "ESSAY",
     "sc0TitleSuffix": "N ESSAY",
-    "sc0Tags": ["Opinion Essay", "140–190 words", "5 paragraphs"],
+    "sc0Tags": [
+      "Opinion Essay",
+      "140–190 words",
+      "5 paragraphs"
+    ],
     "sc0Structure": [
-      {"p":"P1","c":"#3d9e95","label":"INTRODUCTION","sub":"Hook + Thesis statement"},
-      {"p":"P2","c":"#c9140f","label":"BODY PARAGRAPH 1","sub":"Claim → Reason → Example → Result"},
-      {"p":"P3","c":"#c9140f","label":"BODY PARAGRAPH 2","sub":"Claim → Reason → Example → Result"},
-      {"p":"P4","c":"#7b5ea7","label":"BODY PARAGRAPH 3 ★ own idea","sub":"Your original point — required for full marks"},
-      {"p":"P5","c":"#2d7a3a","label":"CONCLUSION","sub":"Restate opinion · No new ideas"}
+      {
+        "p": "P1",
+        "c": "#3d9e95",
+        "label": "INTRODUCTION",
+        "sub": "Hook + Thesis statement"
+      },
+      {
+        "p": "P2",
+        "c": "#c9140f",
+        "label": "BODY PARAGRAPH 1",
+        "sub": "Claim → Reason → Example → Result"
+      },
+      {
+        "p": "P3",
+        "c": "#c9140f",
+        "label": "BODY PARAGRAPH 2",
+        "sub": "Claim → Reason → Example → Result"
+      },
+      {
+        "p": "P4",
+        "c": "#7b5ea7",
+        "label": "BODY PARAGRAPH 3 ★ own idea",
+        "sub": "Your original point — required for full marks"
+      },
+      {
+        "p": "P5",
+        "c": "#2d7a3a",
+        "label": "CONCLUSION",
+        "sub": "Restate opinion · No new ideas"
+      }
     ],
     "sc1FlagLabel": "INTRODUCTION",
     "sc1SectionLbl": "THE QUESTION",
@@ -23,11 +52,11 @@
     "interBig": "<em>HOOK</em> + THESIS",
     "interSub": "<strong>Hook</strong> — grab attention. <strong>Thesis</strong> — state your position.",
     "welcomeNarration": "Welcome to Essay Builder.",
-    "welcomeN": 1,
+    "welcomeN": 3,
     "sc1Narration": "The introduction is just two sentences. A hook, then a thesis. Watch one example — then move on.",
-    "sc1NarrationN": 2,
+    "sc1NarrationN": 4,
     "sc1QuestionNarration": "Here is today's essay question. Should the use of phones be limited for young people? Choose your side, then follow the example.",
-    "sc1QuestionN": 3,
+    "sc1QuestionN": 5,
     "pairs": [
       {
         "s": "Should phones",
@@ -37,21 +66,95 @@
         "f": "Should phones be limited for young people?",
         "link": "You need to pick a side and stick to it.",
         "tf": "In my opinion, limiting phone use for young people would have clear benefits.",
-        "audioNums": [3, 3, 3]
+        "audioNums": [
+          5,
+          5,
+          5
+        ]
       }
     ],
     "sc2Lecture": [
-      {"text": "Every body paragraph opens with a claim.", "n": 4},
-      {"text": "A listing marker —", "n": 5, "chip": {"side":"claim","label":"Listing Marker","color":"#c9140f","modal":"listing"}},
-      {"text": "your opinion —", "n": 6, "chip": {"side":"claim","label":"Your Opinion","color":"#1a5c8a","modal":"view"}},
-      {"text": "the claim itself.", "n": 7, "chip": {"side":"claim","label":"The Claim","color":"#1a6b3c","modal":"claim"}},
-      {"text": "Then you support it.", "n": 8, "showSep": true},
-      {"text": "Give a reason.", "n": 9, "chip": {"side":"support","label":"Reason","color":"#1a6b3c","modal":"reason"}},
-      {"text": "Give an example.", "n": 10, "chip": {"side":"support","label":"Example","color":"#1a5c8a","modal":"example"}},
-      {"text": "Show the result.", "n": 11, "chip": {"side":"support","label":"Result","color":"#6b4ea8","modal":"result"}},
-      {"text": "Use what fits.", "n": 12, "chip": {"side":"support","label":"And More…","color":"#e07b00","modal":"more"}}
+      {
+        "text": "Every body paragraph opens with a claim.",
+        "n": 6
+      },
+      {
+        "text": "A listing marker —",
+        "n": 7,
+        "chip": {
+          "side": "claim",
+          "label": "Listing Marker",
+          "color": "#c9140f",
+          "modal": "listing"
+        }
+      },
+      {
+        "text": "your opinion —",
+        "n": 8,
+        "chip": {
+          "side": "claim",
+          "label": "Your Opinion",
+          "color": "#1a5c8a",
+          "modal": "view"
+        }
+      },
+      {
+        "text": "the claim itself.",
+        "n": 9,
+        "chip": {
+          "side": "claim",
+          "label": "The Claim",
+          "color": "#1a6b3c",
+          "modal": "claim"
+        }
+      },
+      {
+        "text": "Then you support it.",
+        "n": 10,
+        "showSep": true
+      },
+      {
+        "text": "Give a reason.",
+        "n": 11,
+        "chip": {
+          "side": "support",
+          "label": "Reason",
+          "color": "#1a6b3c",
+          "modal": "reason"
+        }
+      },
+      {
+        "text": "Give an example.",
+        "n": 12,
+        "chip": {
+          "side": "support",
+          "label": "Example",
+          "color": "#1a5c8a",
+          "modal": "example"
+        }
+      },
+      {
+        "text": "Show the result.",
+        "n": 13,
+        "chip": {
+          "side": "support",
+          "label": "Result",
+          "color": "#6b4ea8",
+          "modal": "result"
+        }
+      },
+      {
+        "text": "Use what fits.",
+        "n": 14,
+        "chip": {
+          "side": "support",
+          "label": "And More…",
+          "color": "#e07b00",
+          "modal": "more"
+        }
+      }
     ],
-    "sc2TransitionN": 13,
+    "sc2TransitionN": 15,
     "bodyPairs": [
       {
         "flagTitle": "BODY PARAGRAPH 1",
@@ -61,9 +164,12 @@
         "opinion": "in my opinion,",
         "keyExpr": "the main advantage of limiting phones is",
         "rest": " that students can focus better in class. This is because phones are full of apps that keep interrupting you. As a result, schools that ban phones have seen big improvements in students' results.",
-        "links": ["This is because","As a result,"],
+        "links": [
+          "This is because",
+          "As a result,"
+        ],
         "note": "Claim → Reason → Result. Three sentences is enough.",
-        "audioN": 14
+        "audioN": 16
       },
       {
         "flagTitle": "BODY PARAGRAPH 2",
@@ -73,9 +179,11 @@
         "opinion": "it seems to me that,",
         "keyExpr": "one key problem with too much phone use is",
         "rest": " the damage it does to sleep. Looking at a bright screen late at night makes it harder to fall asleep. Consequently, tired students find it much more difficult to learn.",
-        "links": ["Consequently,"],
+        "links": [
+          "Consequently,"
+        ],
         "note": "Different listing marker every paragraph.",
-        "audioN": 15
+        "audioN": 17
       },
       {
         "flagTitle": "BODY PARAGRAPH 3",
@@ -85,37 +193,105 @@
         "opinion": "as far as I am concerned,",
         "keyExpr": "one problem that is often forgotten is",
         "rest": " the effect on social skills. When young people are always on their phones, they get less practice at talking face to face. Therefore, they may find real conversations more difficult as they get older.",
-        "links": ["Therefore,"],
+        "links": [
+          "Therefore,"
+        ],
         "note": "This is YOUR idea — not from the question. Required for full marks.",
         "ownIdeaNarration": "And now — your own idea. This one is yours.",
-        "ownIdeaN": 16,
-        "audioN": 17
+        "ownIdeaN": 18,
+        "audioN": 19
       }
     ],
-    "conclNarrations": ["Finally, the conclusion.", "Restate your opinion — but never repeat the same words.", "Echo your two main points briefly.", "Then rephrase your position in one clear sentence.", "And close with a final verdict. Short. Confident. Done."],
-    "conclNarrationNs": [18, 19, 20, 21, 22],
-    "conclData": [
-      {"text": "In conclusion, I firmly believe that the question of phone use for young people requires careful thought.", "role": "SUMMARY", "kw": "I firmly believe"},
-      {"text": "On one hand, limiting phones leads to better focus, better sleep, and better wellbeing.", "role": "POINT 1", "kw": "On one hand,"},
-      {"text": "On the other hand, smartphones have real benefits and should not be seen as purely harmful.", "role": "POINT 2", "kw": "On the other hand,"},
-      {"text": "In other words, it is not the phone itself that is the problem — it is how and when it is used.", "role": "REWORD", "kw": "In other words,"},
-      {"text": "Overall, a balanced approach to limiting smartphone use would benefit most young people.", "role": "VERDICT", "kw": "Overall,"}
+    "conclNarrations": [
+      "Finally, the conclusion.",
+      "Restate your opinion — but never repeat the same words.",
+      "Echo your two main points briefly.",
+      "Then rephrase your position in one clear sentence.",
+      "And close with a final verdict. Short. Confident. Done."
     ],
-    "conclSentenceNs": [23, 24, 25, 26, 27]
+    "conclNarrationNs": [
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "conclData": [
+      {
+        "text": "In conclusion, I firmly believe that the question of phone use for young people requires careful thought.",
+        "role": "SUMMARY",
+        "kw": "I firmly believe"
+      },
+      {
+        "text": "On one hand, limiting phones leads to better focus, better sleep, and better wellbeing.",
+        "role": "POINT 1",
+        "kw": "On one hand,"
+      },
+      {
+        "text": "On the other hand, smartphones have real benefits and should not be seen as purely harmful.",
+        "role": "POINT 2",
+        "kw": "On the other hand,"
+      },
+      {
+        "text": "In other words, it is not the phone itself that is the problem — it is how and when it is used.",
+        "role": "REWORD",
+        "kw": "In other words,"
+      },
+      {
+        "text": "Overall, a balanced approach to limiting smartphone use would benefit most young people.",
+        "role": "VERDICT",
+        "kw": "Overall,"
+      }
+    ],
+    "conclSentenceNs": [
+      25,
+      26,
+      27,
+      28,
+      29
+    ]
   },
-
   "report": {
     "logoHtml": "REPORT<span>_</span>BUILDER",
     "accentColor": "#1a5c8a",
     "sc0FlagLabel": "REPORT",
     "sc0TitleSuffix": " REPORT",
-    "sc0Tags": ["Formal Report", "150–200 words", "5 sections"],
+    "sc0Tags": [
+      "Formal Report",
+      "150–200 words",
+      "5 sections"
+    ],
     "sc0Structure": [
-      {"p":"S1","c":"#3d9e95","label":"INTRODUCTION","sub":"Purpose + method of data collection"},
-      {"p":"S2","c":"#1a5c8a","label":"FINDING 1","sub":"Topic sentence → Evidence → Impact"},
-      {"p":"S3","c":"#1a5c8a","label":"FINDING 2","sub":"Topic sentence → Evidence → Impact"},
-      {"p":"S4","c":"#7b5ea7","label":"OWN OBSERVATION ★","sub":"Your additional finding — required"},
-      {"p":"S5","c":"#2d7a3a","label":"RECOMMENDATION","sub":"Summary → Suggest improvements"}
+      {
+        "p": "S1",
+        "c": "#3d9e95",
+        "label": "INTRODUCTION",
+        "sub": "Purpose + method of data collection"
+      },
+      {
+        "p": "S2",
+        "c": "#1a5c8a",
+        "label": "FINDING 1",
+        "sub": "Topic sentence → Evidence → Impact"
+      },
+      {
+        "p": "S3",
+        "c": "#1a5c8a",
+        "label": "FINDING 2",
+        "sub": "Topic sentence → Evidence → Impact"
+      },
+      {
+        "p": "S4",
+        "c": "#7b5ea7",
+        "label": "OWN OBSERVATION ★",
+        "sub": "Your additional finding — required"
+      },
+      {
+        "p": "S5",
+        "c": "#2d7a3a",
+        "label": "RECOMMENDATION",
+        "sub": "Summary → Suggest improvements"
+      }
     ],
     "sc1FlagLabel": "THE TASK",
     "sc1SectionLbl": "THE TASK",
@@ -142,19 +318,93 @@
         "f": "Purpose and method — always in the introduction.",
         "link": "State why you wrote the report and how you collected the information.",
         "tf": "This report aims to assess school facilities. The information was gathered through a student survey.",
-        "audioNums": [3, 3, 3]
+        "audioNums": [
+          3,
+          3,
+          3
+        ]
       }
     ],
     "sc2Lecture": [
-      {"text": "Every body paragraph opens with a clear finding.", "n": 4},
-      {"text": "A topic sentence —", "n": 5, "chip": {"side":"claim","label":"Topic Sentence","color":"#1a5c8a","modal":"listing"}},
-      {"text": "your observation —", "n": 6, "chip": {"side":"claim","label":"Observation","color":"#1a6b3c","modal":"view"}},
-      {"text": "the finding itself.", "n": 7, "chip": {"side":"claim","label":"The Finding","color":"#c9140f","modal":"claim"}},
-      {"text": "Then you back it up.", "n": 8, "showSep": true},
-      {"text": "Give the evidence.", "n": 9, "chip": {"side":"support","label":"Evidence","color":"#1a6b3c","modal":"reason"}},
-      {"text": "Add a detail.", "n": 10, "chip": {"side":"support","label":"Detail","color":"#1a5c8a","modal":"example"}},
-      {"text": "Show the impact.", "n": 11, "chip": {"side":"support","label":"Impact","color":"#6b4ea8","modal":"result"}},
-      {"text": "Use what fits.", "n": 12, "chip": {"side":"support","label":"And More…","color":"#e07b00","modal":"more"}}
+      {
+        "text": "Every body paragraph opens with a clear finding.",
+        "n": 4
+      },
+      {
+        "text": "A topic sentence —",
+        "n": 5,
+        "chip": {
+          "side": "claim",
+          "label": "Topic Sentence",
+          "color": "#1a5c8a",
+          "modal": "listing"
+        }
+      },
+      {
+        "text": "your observation —",
+        "n": 6,
+        "chip": {
+          "side": "claim",
+          "label": "Observation",
+          "color": "#1a6b3c",
+          "modal": "view"
+        }
+      },
+      {
+        "text": "the finding itself.",
+        "n": 7,
+        "chip": {
+          "side": "claim",
+          "label": "The Finding",
+          "color": "#c9140f",
+          "modal": "claim"
+        }
+      },
+      {
+        "text": "Then you back it up.",
+        "n": 8,
+        "showSep": true
+      },
+      {
+        "text": "Give the evidence.",
+        "n": 9,
+        "chip": {
+          "side": "support",
+          "label": "Evidence",
+          "color": "#1a6b3c",
+          "modal": "reason"
+        }
+      },
+      {
+        "text": "Add a detail.",
+        "n": 10,
+        "chip": {
+          "side": "support",
+          "label": "Detail",
+          "color": "#1a5c8a",
+          "modal": "example"
+        }
+      },
+      {
+        "text": "Show the impact.",
+        "n": 11,
+        "chip": {
+          "side": "support",
+          "label": "Impact",
+          "color": "#6b4ea8",
+          "modal": "result"
+        }
+      },
+      {
+        "text": "Use what fits.",
+        "n": 12,
+        "chip": {
+          "side": "support",
+          "label": "And More…",
+          "color": "#e07b00",
+          "modal": "more"
+        }
+      }
     ],
     "sc2TransitionN": 13,
     "bodyPairs": [
@@ -166,7 +416,10 @@
         "opinion": null,
         "keyExpr": "that the school provides a pleasant learning environment.",
         "rest": " What makes the library so valuable is that it offers a wide selection of books and resources. By far the best aspect of the facilities is the sports hall, which is modern and well-equipped.",
-        "links": ["What makes the library so valuable","By far the best aspect"],
+        "links": [
+          "What makes the library so valuable",
+          "By far the best aspect"
+        ],
         "note": "Formal register — no contractions, no personal opinions in findings.",
         "audioN": 14
       },
@@ -178,7 +431,10 @@
         "opinion": null,
         "keyExpr": "one major concern expressed by students is the outdated computer equipment.",
         "rest": " By far the worst aspect of the IT facilities is that machines frequently break down. This is mainly due to the fact that student numbers have increased significantly.",
-        "links": ["By far the worst aspect","This is mainly due to the fact"],
+        "links": [
+          "By far the worst aspect",
+          "This is mainly due to the fact"
+        ],
         "note": "Use passive and impersonal structures for formal reports.",
         "audioN": 15
       },
@@ -190,37 +446,105 @@
         "opinion": "it was noted that,",
         "keyExpr": "the school canteen is frequently overcrowded at lunchtime.",
         "rest": " Students reported that queues are too long and seating is insufficient. As a result, many students skip lunch, which affects their concentration in afternoon lessons.",
-        "links": ["As a result,"],
+        "links": [
+          "As a result,"
+        ],
         "note": "Your own observation — not from the task prompt. Required for top marks.",
         "ownIdeaNarration": "And now — your own idea. This one is yours.",
         "ownIdeaN": 16,
         "audioN": 17
       }
     ],
-    "conclNarrations": ["Finally, the recommendation and conclusion.", "Summarise the overall finding.", "Give your first clear recommendation.", "Then give a second recommendation.", "And close with a confident summary statement."],
-    "conclNarrationNs": [18, 19, 20, 21, 22],
-    "conclData": [
-      {"text": "Taking everything into account, it seems clear that targeted improvements would significantly enhance the learning environment.", "role": "SUMMARY", "kw": "Taking everything into account"},
-      {"text": "To sum up, the findings clearly show that students would benefit greatly from updated facilities.", "role": "FINDING", "kw": "To sum up,"},
-      {"text": "One key recommendation would be to replace outdated computers with modern equipment.", "role": "REC 1", "kw": "One key recommendation"},
-      {"text": "In order to maximise study space, I would strongly recommend adding more library seating.", "role": "REC 2", "kw": "I would strongly recommend"},
-      {"text": "Overall, these changes would make a significant difference to the daily experience of all students.", "role": "VERDICT", "kw": "Overall,"}
+    "conclNarrations": [
+      "Finally, the recommendation and conclusion.",
+      "Summarise the overall finding.",
+      "Give your first clear recommendation.",
+      "Then give a second recommendation.",
+      "And close with a confident summary statement."
     ],
-    "conclSentenceNs": [23, 24, 25, 26, 27]
+    "conclNarrationNs": [
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "conclData": [
+      {
+        "text": "Taking everything into account, it seems clear that targeted improvements would significantly enhance the learning environment.",
+        "role": "SUMMARY",
+        "kw": "Taking everything into account"
+      },
+      {
+        "text": "To sum up, the findings clearly show that students would benefit greatly from updated facilities.",
+        "role": "FINDING",
+        "kw": "To sum up,"
+      },
+      {
+        "text": "One key recommendation would be to replace outdated computers with modern equipment.",
+        "role": "REC 1",
+        "kw": "One key recommendation"
+      },
+      {
+        "text": "In order to maximise study space, I would strongly recommend adding more library seating.",
+        "role": "REC 2",
+        "kw": "I would strongly recommend"
+      },
+      {
+        "text": "Overall, these changes would make a significant difference to the daily experience of all students.",
+        "role": "VERDICT",
+        "kw": "Overall,"
+      }
+    ],
+    "conclSentenceNs": [
+      23,
+      24,
+      25,
+      26,
+      27
+    ]
   },
-
   "review": {
     "logoHtml": "REVIEW<span>_</span>BUILDER",
     "accentColor": "#2d7a3a",
     "sc0FlagLabel": "REVIEW",
     "sc0TitleSuffix": " REVIEW",
-    "sc0Tags": ["Descriptive Review", "140–190 words", "5 paragraphs"],
+    "sc0Tags": [
+      "Descriptive Review",
+      "140–190 words",
+      "5 paragraphs"
+    ],
     "sc0Structure": [
-      {"p":"P1","c":"#3d9e95","label":"INTRODUCTION","sub":"Reputation + first impression"},
-      {"p":"P2","c":"#2d7a3a","label":"FEATURE 1","sub":"Describe → Evaluate → Recommend"},
-      {"p":"P3","c":"#2d7a3a","label":"FEATURE 2","sub":"Describe → Evaluate → Recommend"},
-      {"p":"P4","c":"#7b5ea7","label":"OWN ANGLE ★","sub":"Your personal observation — required"},
-      {"p":"P5","c":"#c9140f","label":"VERDICT","sub":"Clear recommendation · Personal endorsement"}
+      {
+        "p": "P1",
+        "c": "#3d9e95",
+        "label": "INTRODUCTION",
+        "sub": "Reputation + first impression"
+      },
+      {
+        "p": "P2",
+        "c": "#2d7a3a",
+        "label": "FEATURE 1",
+        "sub": "Describe → Evaluate → Recommend"
+      },
+      {
+        "p": "P3",
+        "c": "#2d7a3a",
+        "label": "FEATURE 2",
+        "sub": "Describe → Evaluate → Recommend"
+      },
+      {
+        "p": "P4",
+        "c": "#7b5ea7",
+        "label": "OWN ANGLE ★",
+        "sub": "Your personal observation — required"
+      },
+      {
+        "p": "P5",
+        "c": "#c9140f",
+        "label": "VERDICT",
+        "sub": "Clear recommendation · Personal endorsement"
+      }
     ],
     "sc1FlagLabel": "THE TASK",
     "sc1SectionLbl": "THE TASK",
@@ -247,19 +571,93 @@
         "f": "Reputation comes first — what do people say?",
         "link": "Start with what the place is known for, then add your hook.",
         "tf": "This restaurant has built an impressive reputation for authentic local cuisine.",
-        "audioNums": [3, 3, 3]
+        "audioNums": [
+          3,
+          3,
+          3
+        ]
       }
     ],
     "sc2Lecture": [
-      {"text": "Every body paragraph introduces a feature of what you are reviewing.", "n": 4},
-      {"text": "Open with the feature —", "n": 5, "chip": {"side":"claim","label":"Open with Feature","color":"#2d7a3a","modal":"listing"}},
-      {"text": "describe it clearly —", "n": 6, "chip": {"side":"claim","label":"Describe It","color":"#1a5c8a","modal":"view"}},
-      {"text": "name what impresses.", "n": 7, "chip": {"side":"claim","label":"Name the Highlight","color":"#c9140f","modal":"claim"}},
-      {"text": "Then give your personal reaction.", "n": 8, "showSep": true},
-      {"text": "Give your impression.", "n": 9, "chip": {"side":"support","label":"Impression","color":"#1a6b3c","modal":"reason"}},
-      {"text": "Compare to something.", "n": 10, "chip": {"side":"support","label":"Comparison","color":"#1a5c8a","modal":"example"}},
-      {"text": "Say who it suits.", "n": 11, "chip": {"side":"support","label":"Who It Suits","color":"#6b4ea8","modal":"result"}},
-      {"text": "Use what fits.", "n": 12, "chip": {"side":"support","label":"And More…","color":"#e07b00","modal":"more"}}
+      {
+        "text": "Every body paragraph introduces a feature of what you are reviewing.",
+        "n": 4
+      },
+      {
+        "text": "Open with the feature —",
+        "n": 5,
+        "chip": {
+          "side": "claim",
+          "label": "Open with Feature",
+          "color": "#2d7a3a",
+          "modal": "listing"
+        }
+      },
+      {
+        "text": "describe it clearly —",
+        "n": 6,
+        "chip": {
+          "side": "claim",
+          "label": "Describe It",
+          "color": "#1a5c8a",
+          "modal": "view"
+        }
+      },
+      {
+        "text": "name what impresses.",
+        "n": 7,
+        "chip": {
+          "side": "claim",
+          "label": "Name the Highlight",
+          "color": "#c9140f",
+          "modal": "claim"
+        }
+      },
+      {
+        "text": "Then give your personal reaction.",
+        "n": 8,
+        "showSep": true
+      },
+      {
+        "text": "Give your impression.",
+        "n": 9,
+        "chip": {
+          "side": "support",
+          "label": "Impression",
+          "color": "#1a6b3c",
+          "modal": "reason"
+        }
+      },
+      {
+        "text": "Compare to something.",
+        "n": 10,
+        "chip": {
+          "side": "support",
+          "label": "Comparison",
+          "color": "#1a5c8a",
+          "modal": "example"
+        }
+      },
+      {
+        "text": "Say who it suits.",
+        "n": 11,
+        "chip": {
+          "side": "support",
+          "label": "Who It Suits",
+          "color": "#6b4ea8",
+          "modal": "result"
+        }
+      },
+      {
+        "text": "Use what fits.",
+        "n": 12,
+        "chip": {
+          "side": "support",
+          "label": "And More…",
+          "color": "#e07b00",
+          "modal": "more"
+        }
+      }
     ],
     "sc2TransitionN": 13,
     "bodyPairs": [
@@ -271,7 +669,9 @@
         "opinion": null,
         "keyExpr": "is the exceptional quality of the food.",
         "rest": " The menu features regional specialities such as grilled fish and homemade bread. The other feature I found most impressive is the staff's knowledge — they always recommend the perfect local wine.",
-        "links": ["The other feature I found most impressive"],
+        "links": [
+          "The other feature I found most impressive"
+        ],
         "note": "Start with what will impress the reader — your strongest feature first.",
         "audioN": 14
       },
@@ -283,7 +683,10 @@
         "opinion": null,
         "keyExpr": "the folk performances on weekends are by far the most atmospheric I have experienced.",
         "rest": " By far the best feature is its welcoming atmosphere that makes you feel at home. Prices are reasonable considering the quality, making it ideal for families.",
-        "links": ["By far the best feature","making it ideal for"],
+        "links": [
+          "By far the best feature",
+          "making it ideal for"
+        ],
         "note": "Link features together — music, atmosphere, and value all in one paragraph.",
         "audioN": 15
       },
@@ -295,37 +698,106 @@
         "opinion": "however,",
         "keyExpr": "was how quiet and unhurried the whole experience felt.",
         "rest": " Unlike many popular restaurants, there is no pressure to finish quickly. As a result, even a simple meal becomes a real occasion worth savouring.",
-        "links": ["Unlike many popular restaurants","As a result,"],
+        "links": [
+          "Unlike many popular restaurants",
+          "As a result,"
+        ],
         "note": "Your own angle — something unexpected or personal. Not in the task prompt.",
         "ownIdeaNarration": "And now — your own idea. This one is yours.",
         "ownIdeaN": 16,
         "audioN": 17
       }
     ],
-    "conclNarrations": ["Finally, your verdict.", "State your recommendation clearly.", "Back it up with a guarantee.", "Be specific about what makes it unmissable.", "Then close with a confident personal endorsement."],
-    "conclNarrationNs": [18, 19, 20, 21, 22],
-    "conclData": [
-      {"text": "For anyone who is interested in authentic local cuisine, this restaurant is a must.", "role": "RECOMMEND", "kw": "is a must"},
-      {"text": "I can assure you that the experience will leave a lasting impression.", "role": "GUARANTEE", "kw": "I can assure you"},
-      {"text": "This is a place which you cannot afford to miss for its atmosphere, food, and genuine warmth.", "role": "UNMISSABLE", "kw": "cannot afford to miss"},
-      {"text": "I guarantee it will not disappoint anyone seeking something truly memorable.", "role": "ENDORSE", "kw": "I guarantee"},
-      {"text": "Overall, this restaurant is exceptional — and I would recommend it without hesitation.", "role": "VERDICT", "kw": "Overall,"}
+    "conclNarrations": [
+      "Finally, your verdict.",
+      "State your recommendation clearly.",
+      "Back it up with a guarantee.",
+      "Be specific about what makes it unmissable.",
+      "Then close with a confident personal endorsement."
     ],
-    "conclSentenceNs": [23, 24, 25, 26, 27]
+    "conclNarrationNs": [
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "conclData": [
+      {
+        "text": "For anyone who is interested in authentic local cuisine, this restaurant is a must.",
+        "role": "RECOMMEND",
+        "kw": "is a must"
+      },
+      {
+        "text": "I can assure you that the experience will leave a lasting impression.",
+        "role": "GUARANTEE",
+        "kw": "I can assure you"
+      },
+      {
+        "text": "This is a place which you cannot afford to miss for its atmosphere, food, and genuine warmth.",
+        "role": "UNMISSABLE",
+        "kw": "cannot afford to miss"
+      },
+      {
+        "text": "I guarantee it will not disappoint anyone seeking something truly memorable.",
+        "role": "ENDORSE",
+        "kw": "I guarantee"
+      },
+      {
+        "text": "Overall, this restaurant is exceptional — and I would recommend it without hesitation.",
+        "role": "VERDICT",
+        "kw": "Overall,"
+      }
+    ],
+    "conclSentenceNs": [
+      23,
+      24,
+      25,
+      26,
+      27
+    ]
   },
-
   "email": {
     "logoHtml": "EMAIL<span>_</span>BUILDER",
     "accentColor": "#7b5ea7",
     "sc0FlagLabel": "EMAIL",
     "sc0TitleSuffix": "N EMAIL",
-    "sc0Tags": ["Informal Email", "140–190 words", "5 paragraphs"],
+    "sc0Tags": [
+      "Informal Email",
+      "140–190 words",
+      "5 paragraphs"
+    ],
     "sc0Structure": [
-      {"p":"P1","c":"#3d9e95","label":"OPENING","sub":"Greeting + purpose — immediately"},
-      {"p":"P2","c":"#7b5ea7","label":"MAIN POINT 1","sub":"One clear point + supporting detail"},
-      {"p":"P3","c":"#7b5ea7","label":"MAIN POINT 2","sub":"One clear point + supporting detail"},
-      {"p":"P4","c":"#c9140f","label":"OWN ADDITION ★","sub":"Something personal — required"},
-      {"p":"P5","c":"#2d7a3a","label":"SIGN-OFF","sub":"Warm closing + appropriate farewell"}
+      {
+        "p": "P1",
+        "c": "#3d9e95",
+        "label": "OPENING",
+        "sub": "Greeting + purpose — immediately"
+      },
+      {
+        "p": "P2",
+        "c": "#7b5ea7",
+        "label": "MAIN POINT 1",
+        "sub": "One clear point + supporting detail"
+      },
+      {
+        "p": "P3",
+        "c": "#7b5ea7",
+        "label": "MAIN POINT 2",
+        "sub": "One clear point + supporting detail"
+      },
+      {
+        "p": "P4",
+        "c": "#c9140f",
+        "label": "OWN ADDITION ★",
+        "sub": "Something personal — required"
+      },
+      {
+        "p": "P5",
+        "c": "#2d7a3a",
+        "label": "SIGN-OFF",
+        "sub": "Warm closing + appropriate farewell"
+      }
     ],
     "sc1FlagLabel": "THE TASK",
     "sc1SectionLbl": "THE TASK",
@@ -352,19 +824,93 @@
         "f": "Purpose in the very first line.",
         "link": "Tell them immediately why you are writing.",
         "tf": "I am writing to invite you to visit me in my new city.",
-        "audioNums": [3, 3, 3]
+        "audioNums": [
+          3,
+          3,
+          3
+        ]
       }
     ],
     "sc2Lecture": [
-      {"text": "Every body paragraph makes one clear point.", "n": 4},
-      {"text": "State the purpose —", "n": 5, "chip": {"side":"claim","label":"State Purpose","color":"#7b5ea7","modal":"listing"}},
-      {"text": "set your tone —", "n": 6, "chip": {"side":"claim","label":"Set Tone","color":"#1a5c8a","modal":"view"}},
-      {"text": "make it clear.", "n": 7, "chip": {"side":"claim","label":"Make It Clear","color":"#1a6b3c","modal":"claim"}},
-      {"text": "Then add the detail.", "n": 8, "showSep": true},
-      {"text": "Give a detail.", "n": 9, "chip": {"side":"support","label":"A Detail","color":"#1a6b3c","modal":"reason"}},
-      {"text": "Add an example.", "n": 10, "chip": {"side":"support","label":"An Example","color":"#1a5c8a","modal":"example"}},
-      {"text": "Make a suggestion.", "n": 11, "chip": {"side":"support","label":"A Suggestion","color":"#6b4ea8","modal":"result"}},
-      {"text": "Use what fits.", "n": 12, "chip": {"side":"support","label":"And More…","color":"#e07b00","modal":"more"}}
+      {
+        "text": "Every body paragraph makes one clear point.",
+        "n": 4
+      },
+      {
+        "text": "State the purpose —",
+        "n": 5,
+        "chip": {
+          "side": "claim",
+          "label": "State Purpose",
+          "color": "#7b5ea7",
+          "modal": "listing"
+        }
+      },
+      {
+        "text": "set your tone —",
+        "n": 6,
+        "chip": {
+          "side": "claim",
+          "label": "Set Tone",
+          "color": "#1a5c8a",
+          "modal": "view"
+        }
+      },
+      {
+        "text": "make it clear.",
+        "n": 7,
+        "chip": {
+          "side": "claim",
+          "label": "Make It Clear",
+          "color": "#1a6b3c",
+          "modal": "claim"
+        }
+      },
+      {
+        "text": "Then add the detail.",
+        "n": 8,
+        "showSep": true
+      },
+      {
+        "text": "Give a detail.",
+        "n": 9,
+        "chip": {
+          "side": "support",
+          "label": "A Detail",
+          "color": "#1a6b3c",
+          "modal": "reason"
+        }
+      },
+      {
+        "text": "Add an example.",
+        "n": 10,
+        "chip": {
+          "side": "support",
+          "label": "An Example",
+          "color": "#1a5c8a",
+          "modal": "example"
+        }
+      },
+      {
+        "text": "Make a suggestion.",
+        "n": 11,
+        "chip": {
+          "side": "support",
+          "label": "A Suggestion",
+          "color": "#6b4ea8",
+          "modal": "result"
+        }
+      },
+      {
+        "text": "Use what fits.",
+        "n": 12,
+        "chip": {
+          "side": "support",
+          "label": "And More…",
+          "color": "#e07b00",
+          "modal": "more"
+        }
+      }
     ],
     "sc2TransitionN": 13,
     "bodyPairs": [
@@ -376,7 +922,10 @@
         "opinion": null,
         "keyExpr": null,
         "rest": " The city is full of character, with narrow streets, amazing views, and so many cafés to try. My flat is near the old town, so it is easy to get around. I think you would absolutely love the atmosphere.",
-        "links": ["My flat is near","I think you would"],
+        "links": [
+          "My flat is near",
+          "I think you would"
+        ],
         "note": "Informal register — contractions, friendly tone. One point per paragraph.",
         "audioN": 14
       },
@@ -388,7 +937,10 @@
         "opinion": null,
         "keyExpr": null,
         "rest": " we could go sightseeing, visit the famous wine cellars, and spend a day at the beach. There is also a big music festival that weekend, which would be so much fun. I can book tickets in advance if you let me know your dates.",
-        "links": ["There is also","I can book tickets"],
+        "links": [
+          "There is also",
+          "I can book tickets"
+        ],
         "note": "Make it easy to say yes — give specific plans.",
         "audioN": 15
       },
@@ -400,22 +952,63 @@
         "opinion": "of course —",
         "keyExpr": null,
         "rest": " I have a spare room and would love the company. Just let me know when you are free so I can plan everything. I cannot wait to show you around.",
-        "links": ["Just let me know","I cannot wait"],
+        "links": [
+          "Just let me know",
+          "I cannot wait"
+        ],
         "note": "Your own personal touch — not prompted by the task. Adds warmth.",
         "ownIdeaNarration": "And now — your own idea. This one is yours.",
         "ownIdeaN": 16,
         "audioN": 17
       }
     ],
-    "conclNarrations": ["Finally, the sign-off.", "Keep it warm and personal.", "Show you are genuinely waiting for a reply.", null, null],
-    "conclNarrationNs": [18, 19, 20, null, null],
-    "conclData": [
-      {"text": "Can't wait to see you — just say the word and I'll start planning.", "role": "WARM CLOSE", "kw": "Can't wait"},
-      {"text": "Write soon and tell me your exact dates. I want to make sure you have the best time.", "role": "CALL TO ACTION", "kw": "Write soon"},
-      {"text": "Really looking forward to catching up properly after so long!", "role": "PERSONAL NOTE", "kw": "Really looking forward"},
-      {"text": "I look forward to hearing from you at your earliest convenience.", "role": "FORMAL ALT.", "kw": "I look forward"},
-      {"text": "Take care, and I hope to hear from you very soon.", "role": "SIGN-OFF", "kw": "Take care,"}
+    "conclNarrations": [
+      "Finally, the sign-off.",
+      "Keep it warm and personal.",
+      "Show you are genuinely waiting for a reply.",
+      null,
+      null
     ],
-    "conclSentenceNs": [null, null, null, null, null]
+    "conclNarrationNs": [
+      18,
+      19,
+      20,
+      null,
+      null
+    ],
+    "conclData": [
+      {
+        "text": "Can't wait to see you — just say the word and I'll start planning.",
+        "role": "WARM CLOSE",
+        "kw": "Can't wait"
+      },
+      {
+        "text": "Write soon and tell me your exact dates. I want to make sure you have the best time.",
+        "role": "CALL TO ACTION",
+        "kw": "Write soon"
+      },
+      {
+        "text": "Really looking forward to catching up properly after so long!",
+        "role": "PERSONAL NOTE",
+        "kw": "Really looking forward"
+      },
+      {
+        "text": "I look forward to hearing from you at your earliest convenience.",
+        "role": "FORMAL ALT.",
+        "kw": "I look forward"
+      },
+      {
+        "text": "Take care, and I hope to hear from you very soon.",
+        "role": "SIGN-OFF",
+        "kw": "Take care,"
+      }
+    ],
+    "conclSentenceNs": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
   }
 }
